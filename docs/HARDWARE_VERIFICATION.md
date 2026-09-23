@@ -110,7 +110,7 @@ All AI models registered in `ai/model_registry.py` specify dual execution profil
 
 Actual, measured benchmark results run via `scripts/benchmark.py` on the development host (`AMD Ryzen 3 2200U`):
 
-| Pipeline Stage | Measured Latency (ms) | Target on Snapdragon NPU (ms) |
+| Pipeline Stage | Measured Latency (ms) | Target for Future Snapdragon NPU Validation (ms) |
 |---|---|---|
 | Screen Capture (1920x1080) | `38.20 ms` | `< 30 ms` |
 | UI Automation Tree Extraction | `42.50 ms` | `< 35 ms` |
